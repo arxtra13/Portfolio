@@ -44,6 +44,7 @@ nav ul li a:hover {
 
   color: #8685ef;
   transition: 0.3s ease;
+  scale: all 1.1 ease-in-out;
 }
 #logo {
   font-size: 3rem;
