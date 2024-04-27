@@ -1,103 +1,126 @@
-*{
-    margin: 0;
-    padding: 0;
-    /* font-family: sans-serif; */
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kanit", sans-serif;
 }
-body{
-    height: 200vh;
-    position: relative;
-    background-color: rgba(164, 175, 172, 0.712);
+html {
+  scroll-behavior: smooth;
 }
-nav{
-    display: flex;
-    top: 0;
-    position: sticky;
-    justify-content: right;
-    background-color: black;
-    padding: 20px;
-    
+#header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(pexels-gdtography-277628-911738.jpg);
+  background-size: cover;
+  background-position: center;
 }
-nav ul li{
-    display: inline;
-    font-family: sans-serif;
-    margin-left: 20px ;
-    color: aliceblue;
-    font-size: 20px;
+.container {
+  padding: 10px 10%;
+  /* width: 100%; */
+  background-color: #312f3e;
 }
- a:hover{
-    cursor: pointer;
-    border-bottom: 2px solid rgb(188, 188, 218);
-}
-.name{
-    display: flex;
-    gap: 2rem;
-    text-align: justify;
-    padding-left: 1.5rem;
-    padding-top: 20px;
-    color: black;
-    font-family:sans-serif;
-    font-weight: bold;
-    font-size: 5rem;
-    
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  background-size: cover;
 }
 
-.main-right{
-    height: 20vh;
-    background-color: brown;
-    
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 2rem;
 }
-.education{
-    padding-left: 1.5rem;
-    margin-top: 3rem;
+nav ul li a {
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+}
+nav ul li a:hover {
+  /* align-items: center; */
+  /* font-size: 22px; */
 
+  color: #8685ef;
+  transition: 0.3s ease;
 }
-.ed{
-    font-family: sans-serif;
-    font-weight: bolder;
-    color: rgb(63, 3, 3);
+#logo {
+  font-size: 3rem;
+  color: #ffffff;
+  padding-left: 1rem;
 }
-.Secondary{
-    font-family: sans-serif;
-    padding-top: 1.5rem;
-    font-size: 20px;
+#first {
+  color: #8685ef;
 }
-.high{
-    font-family: sans-serif;
-    padding-top: 1.5rem;
-    font-size: 20px;
+
+.header-text {
+  margin-top: 15%;
+  font-size: 30px;
+  margin-left: 10%;
 }
-.college{
-    font-family: sans-serif;
-    padding-top: 1.5rem;
-    font-size: 20px;
+.header-text h1 {
+  font-size: 60px;
+  color: #312f3e;
+  font-weight: 600;
 }
-.skills{
-    font-family: sans-serif;
-    font-weight: bolder;
-    color: rgb(63, 3, 3);
-    padding-top: 1.5rem;
+.letter {
+  color: #8685ef;
+  /* text-shadow: 2px 2px 4px rgb(0, 0, 0); */
 }
-.c{
-    font-family: sans-serif;
-    padding-top: 1.5rem;
-    font-size: 20px;
+/* .letter2 {
+  /* padding-left: 12rem; */
+/* height: 20px; */
+#prof {
+  color: #6d6d6d;
 }
-.project{
-    font-family: sans-serif;
-    font-weight: bolder;
-    color: rgb(63, 3, 3);
-    padding-top: 1.5rem;
+
+/* ---------ABOUT----------- */
+.container-about {
+  padding: 10px 10%;
+  /* height: 100vh; */
+  /* width: 100%; */
+  /* background-color: #312f3e; */
 }
-li{
-    font-family: sans-serif;
+.col-1 {
+  flex-basis: 35%;
 }
-ul{
-    padding-left: 1.5rem;
-    margin-top: 1rem;
-    font-size: 20px;
+.col-2 {
+  /* text-align: center; */
+
+  flex-basis: 55%;
 }
-a{
-    text-decoration: none;
-    color: aliceblue;
+.abt {
+  color: #312f3e;
+  font-weight: 600;
+  font-size: 60px;
+}
+.image {
+  width: 100%;
+}
+.row {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#about {
+  padding: 80px 0;
+}
+.p1 {
+  font-size: 25px;
+  color: #312f3e;
+}
+.p2 {
+  font-weight: 250;
+  font-size: 20px;
+  color: #312f3e;
+  margin-top: 1.5rem;
+}
+.abt-name {
+  font-weight: 500;
+  color: #514256;
+}
+a:hover {
+  transform: all scale(1.3) ease-in-out;
 }
