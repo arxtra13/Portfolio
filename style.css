@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: sans-serif; */
+    box-sizing: border-box;
+}
+body{
+    height: 200vh;
+    position: relative;
+    background-color: rgba(164, 175, 172, 0.712);
+}
+nav{
+    display: flex;
+    top: 0;
+    position: sticky;
+    justify-content: right;
+    background-color: black;
+    padding: 20px;
+    
+}
+nav ul li{
+    display: inline;
+    font-family: sans-serif;
+    margin-left: 20px ;
+    color: aliceblue;
+    font-size: 20px;
+}
+ a:hover{
+    cursor: pointer;
+    border-bottom: 2px solid rgb(188, 188, 218);
+}
+.name{
+    display: flex;
+    gap: 2rem;
+    text-align: justify;
+    padding-left: 1.5rem;
+    padding-top: 20px;
+    color: black;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+    
+}
+
+.main-right{
+    height: 20vh;
+    background-color: brown;
+    
+}
+.education{
+    padding-left: 1.5rem;
+    margin-top: 3rem;
+
+}
+.ed{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: rgb(63, 3, 3);
+}
+.Secondary{
+    font-family: sans-serif;
+    padding-top: 1.5rem;
+    font-size: 20px;
+}
+.high{
+    font-family: sans-serif;
+    padding-top: 1.5rem;
+    font-size: 20px;
+}
+.college{
+    font-family: sans-serif;
+    padding-top: 1.5rem;
+    font-size: 20px;
+}
+.skills{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: rgb(63, 3, 3);
+    padding-top: 1.5rem;
+}
+.c{
+    font-family: sans-serif;
+    padding-top: 1.5rem;
+    font-size: 20px;
+}
+.project{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: rgb(63, 3, 3);
+    padding-top: 1.5rem;
+}
+li{
+    font-family: sans-serif;
+}
+ul{
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
