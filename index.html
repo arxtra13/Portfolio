@@ -3,12 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="Screenshot_2024-04-23_093010-removebg-preview.png"
-      type="image/x-icon"
-    />
-    <title>Document</title>
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon" />
+    <title>Aritra Sarkar</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,30 +12,35 @@
       href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap"
       rel="stylesheet"
     />
+
+    <script
+      src="https://kit.fontawesome.com/7dc99611d3.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
+    <div id="particles" class="overlay"></div>
     <div id="header">
       <div class="container">
         <nav>
-          <h1 id="logo"><span id="first">A</span>ritra.</h1>
+          <img src="android-chrome-192x192.png" alt="logo" class="logo" />
 
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#abtt">About</a></li>
-            <li><a href="#">Education</a></li>
-            <li><a href="#">Experience</a></li>
+            <li><a href="#expp">Experience</a></li>
+            <li><a href="#">Projects</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
       </div>
+
       <div class="header-text">
-        <p id="prof">Web Developer</p>
-        <h1>
-          Hi, I am <span class="letter">Aritra</span><br />
-          Sarkar from India.
-        </h1>
+        <h1 id="name">Aritra Sarkar</h1>
+        <p id="prof">Welcome to the Website!</p>
       </div>
     </div>
+    <!-- ----------- ABOUT -------------- -->
     <div id="about">
       <div class="container-about">
         <div class="row">
@@ -56,18 +57,146 @@
               Hello! <br />I'm <span class="abt-name">Aritra Sarkar</span>,
             </p>
             <p class="p2">
-              I am a 20 year old student who is currently in college. I am very
-              keen to code and enjoy developing websites which I have been doing
-              for the past three years. Also, I like playing football and games.
+              Hey there! I'm Aritra, a passionate front-end web developer with a
+              flair for creating engaging and dynamic user experiences. With 3
+              years of experience in the field, I've acquired skills in HTML,
+              CSS, and JavaScript to craft websites that function across various
+              devices and browsers.
             </p>
             <p class="p2">
-              Currently I am a third year student at Techno India university and
-              developing skills in backend programing and Data Sructures and
-              Algorithm.
+              I thrive on turning creative ideas into realities. I'm always
+              eager to stay updated with the latest trends and technologies in
+              web development, constantly seeking out new tools and techniques
+              to enhance my craft.
             </p>
           </div>
         </div>
       </div>
     </div>
+    <!----- experience ------>
+    <div id="experience">
+      <div class="container-exp">
+        <h1 class="exp" id="expp">Exp<span class="letter">erience</span>.</h1>
+        <div class="experience-list">
+          <div>
+            <i class="fa-regular fa-file-code"></i>
+            <h2>Web development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae quos praesentium perferendis vitae, obcaecati explicabo
+              quibusdam iure ipsa cupiditate deserunt!
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>DSA</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae quos praesentium perferendis vitae, obcaecati explicabo
+              quibusdam iure ipsa cupiditate deserunt!
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-database"></i>
+            <h2>Software development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae quos praesentium perferendis vitae, obcaecati explicabo
+              quibusdam iure ipsa cupiditate deserunt!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------Projects-------------- -->
+    <div id="pojects">
+      <div class="container-pro">
+        <h1 class="exp" id="expp">Pro<span class="letter">jects</span>.</h1>
+        <div class="projects-list">
+          <div class="pro1">
+            <img src="share.jpg" alt="secure share" class="pro-img" />
+            <div class="layer">
+              <h3>Secure Share</h3>
+              <p>
+                This a encrypted file sharing website where one can share any
+                file without any risk and is completely safe.
+              </p>
+              <a href="#">View</a>
+            </div>
+          </div>
+          <div class="pro2">
+            <img src="tickets.jpg" alt="ticket booking" class="pro-img" />
+          </div>
+          <div class="pro3">
+            <img src="canvas.jpg" alt="secure share" class="pro-img" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+      particlesJS("particles", {
+        particles: {
+          number: { value: 120, density: { enable: true, value_area: 800 } },
+          color: { value: "#000000" },
+          shape: {
+            type: "circle",
+            stroke: { width: 0, color: "#000000" },
+            polygon: { nb_sides: 5 },
+            image: { src: "img/github.svg", width: 100, height: 100 },
+          },
+          opacity: {
+            value: 0.5,
+            random: false,
+            anim: { enable: true, speed: 1, opacity_min: 0.1, sync: false },
+          },
+          size: {
+            value: 3,
+            random: true,
+            anim: { enable: true, speed: 0, size_min: 0.1, sync: false },
+          },
+          line_linked: {
+            enable: false,
+            distance: 0,
+            color: "#ffffff",
+            opacity: 0.24463576890600452,
+            width: 1.2626362266116362,
+          },
+          move: {
+            enable: true,
+            speed: 3,
+            direction: "none",
+            random: false,
+            straight: false,
+            out_mode: "out",
+            bounce: false,
+            attract: { enable: false, rotateX: 600, rotateY: 1200 },
+          },
+        },
+        interactivity: {
+          detect_on: "canvas",
+          events: {
+            onhover: { enable: false, mode: "grab" },
+            onclick: { enable: true, mode: "push" },
+            resize: true,
+          },
+          modes: {
+            grab: { distance: 400, line_linked: { opacity: 1 } },
+            bubble: {
+              distance: 400,
+              size: 40,
+              duration: 2,
+              opacity: 8,
+              speed: 3,
+            },
+            repulse: { distance: 200, duration: 0.4 },
+            push: { particles_nb: 4 },
+            remove: { particles_nb: 2 },
+          },
+        },
+        retina_detect: true,
+      });
+    </script>
   </body>
 </html>
