@@ -29,9 +29,12 @@
             <li><a href="#">Home</a></li>
             <li><a href="#abtt">About</a></li>
             <li><a href="#expp">Experience</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a href="#proo">Projects</a></li>
             <li><a href="#">Contact</a></li>
+            <i class="fa-solid fa-xmark"></i>
+
           </ul>
+          <i class="fa-solid fa-bars"></i>
         </nav>
       </div>
 
@@ -53,8 +56,10 @@
           </div>
           <div class="col-2">
             <h1 class="abt" id="abtt">About <span class="letter">Me</span>.</h1>
+            <p class="hello">Hello!</p>
             <p class="p1">
-              Hello! <br />I'm <span class="abt-name">Aritra Sarkar</span>,
+              <br /><span>I'm</span>
+              <span class="abt-name">Aritra Sarkar</span>,
             </p>
             <p class="p2">
               Hey there! I'm Aritra, a passionate front-end web developer with a
@@ -106,14 +111,15 @@
             </p>
           </div>
         </div>
+        <a class="btn" href="Resume.pdf" target="_blank">View CV</a>
       </div>
     </div>
     <!-- ----------------Projects-------------- -->
     <div id="pojects">
       <div class="container-pro">
-        <h1 class="exp" id="expp">Pro<span class="letter">jects</span>.</h1>
+        <h1 class="exp" id="proo">Pro<span class="letter">jects</span>.</h1>
         <div class="projects-list">
-          <div class="pro1">
+          <div class="pro">
             <img src="share.jpg" alt="secure share" class="pro-img" />
             <div class="layer">
               <h3>Secure Share</h3>
@@ -121,19 +127,90 @@
                 This a encrypted file sharing website where one can share any
                 file without any risk and is completely safe.
               </p>
-              <a href="#">View</a>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
             </div>
           </div>
-          <div class="pro2">
+          <div class="pro">
             <img src="tickets.jpg" alt="ticket booking" class="pro-img" />
+            <div class="layer">
+              <h3>Calcutta Heritage</h3>
+              <p>
+                This a encrypted file sharing website where one can share any
+                file without any risk and is completely safe.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
           </div>
-          <div class="pro3">
+          <div class="pro">
             <img src="canvas.jpg" alt="secure share" class="pro-img" />
+            <div class="layer">
+              <h3>Converse</h3>
+              <p>
+                This a encrypted file sharing website where one can share any
+                file without any risk and is completely safe.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
+    <!-- ------------------- Contact --------------------- -->
+    <div id="contact">
+      <div class="container-con">
+        <h1 class="exp" id="conn">
+          Contact <span class="letter">Me</span>.
+        </h1>
+        <div class="row">
+         
+          <div class="con-left">
+            <h4>Get in touch</h4>
+            
+            <p>
+              <i class="fa-solid fa-envelope"></i></i>aritrasarkar8770@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>+91 8583988699</p>
+            <p><i class="fa-solid fa-location-dot"></i>Kolkata</p>
+            <div class="icons">
+              <a href="https://twitter.com/AritraSarkar_" target="_blank"
+                ><i class="fa-brands fa-square-x-twitter"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/aritra-sarkar-5566b52a0/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/arxtra13" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://www.instagram.com/arxtra13/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="con-right">
+            <!-- <h4>
+              Message me
+            </h4> -->
+            <form>
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input type="email" name="email" placeholder="Email" required />
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit" class="btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright <i class="fa-regular fa-copyright"></i> Aritra Sarkar | Created by Aritra Sarkar 2024 </p>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script>
       particlesJS("particles", {
