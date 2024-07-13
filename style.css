@@ -376,7 +376,7 @@ nav.sticky ul li a:hover {
   padding-right: 80px;
   text-align: center;
   color: #fff;
-  transition: height 0.5s;
+  transition: 0.5s;
 }
 .layer p {
   padding: 0 40px;
